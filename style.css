@@ -68,7 +68,7 @@
         font-size: var(--h2-size);
         margin: 0;
     }
-    
+
     h4{
         margin: 0;
         font-size: var(--text-size);
@@ -272,6 +272,12 @@
         color: var(--white-color);
     }
 
+    /* hide .language-specifier and .account for all screens */
+    .language-specifier,
+    .account{
+        display: none;
+    }
+
     .navbar{
         position: absolute;
         top: 100%;
@@ -309,7 +315,7 @@
         font-size: var(--small-text-size);
     }
 
-    
+
     .navbar ul a span{
         width: 1.5rem;
         height: 1.5rem;
@@ -320,20 +326,20 @@
         align-items: center;
         color: var(--white-color);
     }
-    
+
     .navbar ul a p{
         width: 90%;
     }
-    
+
     .navbar ul a.current{
         box-shadow: var(--nav-box-shadow);
     }
-    
+
     .navbar ul a.filled span{
         background-color: var(--blue-color);
         font-weight: var(--medium);
     }
-    
+
     .navbar ul a.filled p{
         color: var(--black-color);
         font-weight: var(--semi-bold);
@@ -392,7 +398,7 @@
     .introductory-section i{
         font-size: 24px;
     }
-    
+
     .introductory-section p{
         font-style: var(--text-size);
     }
@@ -515,8 +521,8 @@
     .main-section{
         width: 70%;
     }
-    
-    
+
+
 }
 
 
@@ -528,8 +534,8 @@
     .buttons{
         width: 50%;
     }
-    
-    
+
+
 }
 
 
@@ -552,19 +558,19 @@
         width: 55%;
         padding: 0 4rem;
     }
-    
-    
+
+
 }
 
 
 
 
 @media screen and (max-width: 810px) {
-    
+
     .right-nav .remain-time{
         display: none;
     }
-    
+
     .left-nav{
         width: 80%;
     }
@@ -625,7 +631,7 @@
 
 
 @media screen and (max-width: 680px) {
-    
+
     .language-specifier{
         position: absolute;
         bottom: -92vh;
@@ -651,7 +657,7 @@
 
 
 @media screen and (max-width: 569px) {
-    
+
     .navbar{
         width: 60%;
     }
